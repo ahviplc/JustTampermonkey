@@ -14,6 +14,12 @@
 
 ### 🏠 [Homepage-github-fastgit](https://hub.fastgit.org/ahviplc/JustTampermonkey)
 
+## Install Tampermonkey Script
+
+`安装已开发的脚本猴脚本`
+
+### ✨ [quick-fastgit](https://raw.fastgit.org/ahviplc/JustTampermonkey/master/lib/quick-fastgit.user.js "快速使用fastgit打开github仓库")
+
 ## Install
 
 `安装依赖`
@@ -143,10 +149,12 @@ https://codesandbox.io/s/github/vuejs/vuejs.org/tree/master/src/v2/examples/vue-
 ### 1. 随记
 
 ```markdown
-{  
-"build": "vite build",
-"preview": "vite preview lib --port 8697"
-}
+ "scripts": {
+    "vite": "vite dist --port 8696",
+    "dev": "vite", // 启动开发服务器
+    "build": "vite build", // 为生产环境构建产物
+    "serve": "vite preview" // 本地预览生产构建产物
+  }
 ```
 
 ### 2. 注意点
