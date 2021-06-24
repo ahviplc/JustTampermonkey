@@ -4,7 +4,10 @@
   "description": "JustTampermonkey,一个TamperMonkey工具集装箱.",
   "type": "commonjs",
   "scripts": {
-    "vite": "vite lib --port 8696"
+    "vite": "vite dist --port 8696",
+    "dev": "vite dist",
+    "serve": "vite preview",
+    "build": "vite build"
   },
   "keywords": [
     "Tampermonkey",
@@ -16,7 +19,11 @@
   "author": "LC ahlc@sina.cn",
   "homepage": "https://github.com/ahviplc/JustTampermonkey",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "vite": "^2.3.8",
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.5"
+  },
   "main": "",
   "module": "",
   "files": [
@@ -26,6 +33,6 @@
     "README.md"
   ],
   "dependencies": {
-    "vite": "^2.3.8"
+    "vue": "^3.0.5"
   }
 }

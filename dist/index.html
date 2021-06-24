@@ -11,25 +11,23 @@
 <body>
 
 <div id="app">
-    TamperMonkey是Chrome 扩展,著名的脚本管理器.我没有？点我安装,你就打开了新世界 => <a :href="officialTampermonkeyInstallUrl"
-                                                            target="_blank">慢安装</a> ❥(^_-) <a
-        :href="fastTampermonkeyInstallUrl" target="_blank">快安装</a></br>
-    {{ message }} </br>
+    TamperMonkey是Chrome 扩展,著名的脚本管理器.我没有？点我安装,你就打开了新世界 => <a :href="officialTampermonkeyInstallUrl" target="_blank">慢安装</a> ❥(^_-) <a :href="fastTampermonkeyInstallUrl" target="_blank">快安装</a><br>
+    {{ message }} <br>
     <ul id="showExtInfoLists">
         <li v-for="extInfo in showExtInfoLists">
-            =================================</br>
-            {{ extInfo.titile }}</br>
-            {{ extInfo.sourceWhere }}</br>
+            =================================<br>
+            {{ extInfo.titile }}<br>
+            {{ extInfo.sourceWhere }}<br>
             访问我即可快速安装脚本
-            <a :href="extInfo.installUrl" target="_blank">点我</a></br>
-            =================================</br>
+            <a :href="extInfo.installUrl" target="_blank">点我</a><br>
+            =================================<br>
         </li>
     </ul>
     ❥(^_-)============================友情Links链接============================ ❥(^_-)
     <ul id="awesomeLinks">
         <li v-for="awesomeLink in awesomeLinks">
-            {{ awesomeLink.webTitle }}</br>
-            <a :href="awesomeLink.webUrl" target="_blank">点我</a></br>
+            {{ awesomeLink.webTitle }}<br>
+            <a :href="awesomeLink.webUrl" target="_blank">点我</a><br>
         </li>
     </ul>
 </div>
