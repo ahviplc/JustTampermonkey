@@ -1,0 +1,31 @@
+{
+  "name": "JustTampermonkey",
+  "version": "1.0.0",
+  "description": "JustTampermonkey,一个TamperMonkey工具集装箱.",
+  "type": "commonjs",
+  "scripts": {
+    "vite": "vite lib --port 8696"
+  },
+  "keywords": [
+    "Tampermonkey",
+    "Chrome Extension plugin",
+    "js",
+    "JavaScript",
+    "NodeJS"
+  ],
+  "author": "LC ahlc@sina.cn",
+  "homepage": "https://github.com/ahviplc/JustTampermonkey",
+  "license": "ISC",
+  "devDependencies": {},
+  "main": "",
+  "module": "",
+  "files": [
+    "dist",
+    "lib",
+    "tests",
+    "README.md"
+  ],
+  "dependencies": {
+    "vite": "^2.3.8"
+  }
+}
