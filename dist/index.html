@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>JustTampermonkey</title>
+    <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>-->
+    <!-- 生产环境版本，优化了尺寸和速度 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+
+<div id="app">
+    TamperMonkey是Chrome 扩展,著名的脚本管理器.我没有？点我安装,你就打开了新世界 => <a :href="officialTampermonkeyInstallUrl"
+                                                            target="_blank">慢安装</a> ❥(^_-) <a
+        :href="fastTampermonkeyInstallUrl" target="_blank">快安装</a></br>
+    {{ message }} </br>
+    <ul id="showExtInfoLists">
+        <li v-for="extInfo in showExtInfoLists">
+            =================================</br>
+            {{ extInfo.titile }}</br>
+            {{ extInfo.sourceWhere }}</br>
+            访问我即可快速安装脚本
+            <a :href="extInfo.installUrl" target="_blank">点我</a></br>
+            =================================</br>
+        </li>
+    </ul>
+    ❥(^_-)============================友情Links链接============================ ❥(^_-)
+    <ul id="awesomeLinks">
+        <li v-for="awesomeLink in awesomeLinks">
+            {{ awesomeLink.webTitle }}</br>
+            <a :href="awesomeLink.webUrl" target="_blank">点我</a></br>
+        </li>
+    </ul>
+</div>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'JustTampermonkey,一个TamperMonkey工具集装箱.',
+            officialTampermonkeyInstallUrl: 'https://www.tampermonkey.net/index.php',
+            fastTampermonkeyInstallUrl: 'https://www.baiduyun.wiki/download.html',
+            showExtInfoLists: [
+                {
+                    titile: ' 快速使用fastgit打开github仓库',
+                    sourceWhere: 'quick-fastgit => lib/quick-fastgit.user.js',
+                    installUrl: 'https://raw.fastgit.org/ahviplc/JustTampermonkey/master/lib/quick-fastgit.user.js'
+                },
+                {
+                    titile: 'todo',
+                    sourceWhere: 'todo',
+                    installUrl: '#'
+                }],
+            awesomeLinks: [
+                {
+                    webTitle: '油小猴',
+                    webUrl: "https://www.baiduyun.wiki"
+                },
+                {
+                    webTitle: '相关软件下载 | 油小猴',
+                    webUrl: "https://www.baiduyun.wiki/download.html"
+                },
+                {
+                    webTitle: '安装助手 | 油小猴',
+                    webUrl: "https://www.baiduyun.wiki/zh-cn/all.html"
+                }]
+        }
+    })
+</script>
+</body>
+</html>
