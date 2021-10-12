@@ -20,6 +20,8 @@
 
 ### ✨ [quick-fastgit](https://raw.fastgit.org/ahviplc/JustTampermonkey/master/lib/quick-fastgit.user.js "快速使用fastgit打开github仓库")
 
+### ✨ [quick-github1s](https://raw.fastgit.org/ahviplc/JustTampermonkey/master/lib/quick-github1s.user.js "快速使用github1s打开github仓库")
+
 ## Install
 
 `安装依赖`
