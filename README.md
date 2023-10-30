@@ -144,6 +144,18 @@ https://cn.vuejs.org/v2/guide/list.html#在-v-for-里使用对象
 
 vue-20-hello-world - CodeSandbox
 https://codesandbox.io/s/github/vuejs/vuejs.org/tree/master/src/v2/examples/vue-20-hello-world?file=/index.html:174-295
+
+X.I.U 浏览器油猴脚本集合地
+https://greasyfork.org/zh-CN/users/457025-x-i-u
+
+XIU2/UserScript: 🐵 自用的一些乱七八糟 油猴脚本~
+https://github.com/XIU2/UserScript
+
+西柚秀 - 知乎 - 油猴脚本作者知乎
+https://www.zhihu.com/people/xiu2
+
+Github 增强 - 高速下载
+https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD
 ```
 
 ## Notes
